@@ -199,12 +199,20 @@ SWIFT_CLASS("_TtC11FoodTracker11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+@class UILabel;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11FoodTracker14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameTextField;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified mealNameLabel;
 - (void)viewDidLoad;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (IBAction)setDefaultLabelText:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
