@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "32c5a0f3be8022b7e46e89939ec45a0f"
-build_time: [1538193455, 270607000]
+build_time: [1538517446, 767331000]
 inputs:
-  "/Users/aavci/Documents/Codebase/FoodTracker/FoodTracker/ViewController.swift": !dirty [1538193455, 0]
+  "/Users/aavci/Documents/Codebase/FoodTracker/FoodTracker/ViewController.swift": [1538517446, 0]
   "/Users/aavci/Documents/Codebase/FoodTracker/FoodTracker/AppDelegate.swift": [1538069151, 0]
