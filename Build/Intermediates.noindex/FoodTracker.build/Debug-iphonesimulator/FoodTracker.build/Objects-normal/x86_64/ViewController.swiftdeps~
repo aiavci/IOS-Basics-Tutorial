@@ -11,6 +11,7 @@ provides-dynamic-lookup:
 - "mealNameLabel"
 - "nameTextField"
 - "photoImageView"
+- "ratingControl"
 - "selectImageFromPhotoLibrary"
 - "setDefaultLabelText"
 - "textFieldDidEndEditing"
@@ -21,6 +22,7 @@ depends-top-level:
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- "RatingControl"
 - "String"
 - !private "StringLiteralType"
 - "UIButton"
@@ -263,6 +265,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "RatingControl"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIImage"]
@@ -286,6 +289,7 @@ depends-member:
 - ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So8NSObjectC", "photoImageView"]
 - !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "ratingControl"]
 - !private ["So8NSObjectC", "resignFirstResponder"]
 - ["So8NSObjectC", "selectImageFromPhotoLibrary"]
 - ["So8NSObjectC", "setDefaultLabelText"]
@@ -529,6 +533,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "RatingControl"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIImage"]
@@ -552,6 +557,7 @@ depends-member:
 - ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So11UIResponderC", "photoImageView"]
 - !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "ratingControl"]
 - !private ["So11UIResponderC", "resignFirstResponder"]
 - ["So11UIResponderC", "selectImageFromPhotoLibrary"]
 - ["So11UIResponderC", "setDefaultLabelText"]
@@ -690,6 +696,7 @@ depends-member:
 - !private ["So6UIViewC", "resignFirstResponder"]
 - !private ["So6UIViewC", "text"]
 - ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "RatingControl"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIButton"]
 - !private ["So16UIViewControllerC", "UIImage"]
@@ -712,6 +719,7 @@ depends-member:
 - ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So16UIViewControllerC", "photoImageView"]
 - !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "ratingControl"]
 - ["So16UIViewControllerC", "selectImageFromPhotoLibrary"]
 - ["So16UIViewControllerC", "setDefaultLabelText"]
 - !private ["So16UIViewControllerC", "sourceType"]
@@ -725,6 +733,7 @@ depends-member:
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
 - ["11FoodTracker14ViewControllerC", "Bool"]
+- ["11FoodTracker14ViewControllerC", "RatingControl"]
 - ["11FoodTracker14ViewControllerC", "String"]
 - ["11FoodTracker14ViewControllerC", "UIButton"]
 - !private ["11FoodTracker14ViewControllerC", "UIImage"]
@@ -747,6 +756,7 @@ depends-member:
 - ["11FoodTracker14ViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - ["11FoodTracker14ViewControllerC", "photoImageView"]
 - !private ["11FoodTracker14ViewControllerC", "present"]
+- ["11FoodTracker14ViewControllerC", "ratingControl"]
 - ["11FoodTracker14ViewControllerC", "selectImageFromPhotoLibrary"]
 - ["11FoodTracker14ViewControllerC", "setDefaultLabelText"]
 - ["11FoodTracker14ViewControllerC", "textField"]
@@ -916,4 +926,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "3fc40ef49ec1245e9919c398121fa8f5"
+interface-hash: "494f76b7be63c67afa1e4f194e6a26eb"
