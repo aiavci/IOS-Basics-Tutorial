@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51A41722165A685005420AF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A41712165A685005420AF /* Meal.swift */; };
 		D53CEBD8215D4A1F00FA6FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CEBD7215D4A1F00FA6FC5 /* AppDelegate.swift */; };
 		D53CEBDA215D4A1F00FA6FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CEBD9215D4A1F00FA6FC5 /* ViewController.swift */; };
 		D53CEBDD215D4A1F00FA6FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53CEBDB215D4A1F00FA6FC5 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D51A41712165A685005420AF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D53CEBD4215D4A1F00FA6FC5 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53CEBD7215D4A1F00FA6FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53CEBD9215D4A1F00FA6FC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				D53CEBDE215D4A1F00FA6FC5 /* Assets.xcassets */,
 				D53CEBE0215D4A1F00FA6FC5 /* LaunchScreen.storyboard */,
 				D53CEBE3215D4A1F00FA6FC5 /* Info.plist */,
+				D51A41712165A685005420AF /* Meal.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51A41722165A685005420AF /* Meal.swift in Sources */,
 				D53CEBDA215D4A1F00FA6FC5 /* ViewController.swift in Sources */,
 				D550778B2164445500CB1A10 /* RatingControl.swift in Sources */,
 				D53CEBD8215D4A1F00FA6FC5 /* AppDelegate.swift in Sources */,
